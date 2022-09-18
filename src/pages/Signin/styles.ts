@@ -8,7 +8,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     flex: 1;
-    background-color: ${colors.red};
+    background-color: ${colors.primary};
     height: 100vh;
 `;
 
@@ -20,7 +20,7 @@ export const FormContainer = styled(Form)`
     border-radius: 8px;
     padding: 36px 16px 36px 16px;
     width: 600px;
-    margin-top: 300px;
+    margin-top: 20vh;
 `
 
 export const FormTitle = styled.h4`

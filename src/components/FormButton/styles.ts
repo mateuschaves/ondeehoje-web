@@ -3,7 +3,7 @@ import {darken} from 'polished';
 import {colors} from '~/theme';
 
 export const Button = styled.button`
-    background-color: ${colors.red};
+    background-color: ${colors.primary};
     padding: 16px;
     color: ${colors.white};
     border-radius: 8px;
@@ -13,6 +13,6 @@ export const Button = styled.button`
     font-weight: bold;
 
     &:hover {
-        background-color: ${darken(0.05, colors.red)};
+        background-color: ${darken(0.05, colors.primary)};
     }
 `;

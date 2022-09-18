@@ -47,7 +47,7 @@ export default function Signin() {
                 validateOnChange={false}
             >
                 <FormContainer>
-                    <FormTitle>React Auth Boilerplate</FormTitle>
+                    <FormTitle>Onde é hoje - Painel</FormTitle>
 
                     <FormInput 
                         type="email"
